@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Ship Wregexed! A Game of Regular Expressions</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script src="game.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form>
+	<input id="input" type="text">
+	<p id="status">
+		<span class="good">Got 'em!</span>
+		<span class="bad">Not quite!</span>
+	</p>
+</form>
+
+<div id="sky"></div>
+<div id="ocean">
+	<img id="ship" src="ship.png">
+	<div id="game"></div>
+	<div id="ocean_bottom"></div>
+</div>
+
+<div id="intro" class="message">
+	<h1>Ahoy!</h1>
+	<p>You and your mates have been ship wrecked! Dust off your regular expression skills so you can save your mates.</p>
+	<p><button class="begin">Let's Go!</button></p>
+</div>
+
+<div id="game_won" class="message">
+	<h1>You win!</h1>
+	<p>Congratulations! You won! Now tell all of your friends.</p>
+	<p><button class="begin">Play again</button></p>
+</div>
+
+<div id="game_lost" class="message">
+	<h1>You lost!</h1>
+	<p>Your mates have drowned. Better luck next time.</p>
+	<p><button class="begin">Try again</button></p>
+</div>
+
+</body>
+</html>
