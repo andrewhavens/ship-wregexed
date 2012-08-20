@@ -96,6 +96,6 @@ body {
 	position: relative;
 	margin: 0 auto;
 }
-.task { font-size: 40px; position:absolute; z-index:9;}
-.task span { background: #fff; border-radius: 10px; padding: 0.5em;}
-.task .good { color: green; position: relative;}
+.challenge { font-size: 40px; position:absolute; z-index:9;}
+.challenge span { background: #fff; border-radius: 10px; padding: 0.5em;}
+.challenge .good { color: green; position: relative;}
